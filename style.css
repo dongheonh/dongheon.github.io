@@ -1,14 +1,14 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Helvetica", serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: lightgray;
     color: #333;
 }
 a {
-    color: #007acc;
+    color: #00274C;
     text-decoration: none;
 }
 a:hover {
@@ -17,8 +17,8 @@ a:hover {
 
 /* Header Styles */
 header {
-    background-color: #007acc;
-    color: white;
+    background-color: #00274C;
+    color: #FFCB05;
     text-align: center;
     padding: 2em 0;
 }
@@ -32,23 +32,64 @@ header .cv-link {
     display: inline-block;
     margin-top: 1em;
     padding: 0.5em 1em;
-    background-color: white;
-    color: #007acc;
-    border: 1px solid white;
+    background-color: #FFCB05;
+    color: #00274C;
+    border: 1px solid #FFCB05;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
 }
 header .cv-link:hover {
-    background-color: #007acc;
-    color: white;
-    border: 1px solid white;
+    background-color: #00274C;
+    color: #FFCB05;
+    border: 1px solid #FFCB05;
 }
 
 /* Main Styles */
 main {
     padding: 2em;
 }
+
+main .bio,
+main .research {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+main .bio {
+    background: white;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+main .bio img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+main .bio-description {
+    flex: 1;
+    padding: 1em;
+}
+
+main .bio-description h2 {
+    margin-top: 0;
+}
+
+main .bio-description p {
+    margin: 0.5em 0 0;
+}
+
+
+
+
 main .research {
     max-width: 900px;
     margin: 0 auto;
@@ -82,17 +123,24 @@ main .research-description p {
     margin: 0.5em 0 0;
 }
 
-/* Footer Styles */
 footer {
     text-align: center;
-    padding: 1em;
-    background-color: #007acc;
-    color: white;
-    font-size: 0.9em;
+    padding: 3em;
+    background-color: #00274C;
+    color: #FFCB05;
 }
-footer a {
-    color: white;
-    text-decoration: underline;
+
+footer .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+footer .logos img {
+    height: 80px; 
+    width: auto;
+    object-fit: contain;
 }
 
 /* Responsive Styles */
@@ -105,3 +153,9 @@ footer a {
         max-width: 100%;
     }
 }
+
+.keywords {
+    text-align: center;  
+    color:white;   
+}
+

@@ -3,47 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dong Heon Han - Robotics Research</title>
+    <title>Dong Heon Han</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="profile">
-            <img src="your-photo.jpg" alt="Profile Photo">
+            <img src="dh4.jpg" alt="Profile Photo">
             <h1>Dong Heon Han</h1>
-            <p>PhD Student | Robotics & Soft Robotics Enthusiast</p>
-            <a href="your-cv.pdf" class="cv-link" target="_blank">View My CV</a>
+            <p>dongheon@umich.edu</p>
+            <p>Robotics PhD Student@ University of Michigan - Ann Arbor</p>
+            <p class="keywords">Robot Collectives · Artificial Intelligence · Soft Robotics · Microrobotics</p>
+            <a href="dh-cv.pdf" class="cv-link" target="_blank">CV</a>
         </div>
     </header>
 
     <main>
+        <section class="bio">
+            <p>
+                I am a <b>Robotics PhD student</b> at the <b>University of Michigan</b> with a background in <b>mechatronics</b>, <b>control</b>, and <b>artificial intelligence</b>. Currently, I am working in the <b>SAM Lab</b> under the guidance of <b>Prof. Steven Ceron</b>.
+                <br><br>
+                I am originally from <b>Korea</b> and earned my <b>BS in Mechanical Engineering</b> from <b>Georgia Institute of Technology</b> and completed my <b>MS in Mechanical Engineering</b>  at the <b>University of Michigan</b>.
+            </p>
+        </section>
+
         <section class="research">
-            <h2>My Research</h2>
+            <h2>PROJECTS</h2>
+            
             <div class="research-item">
-                <img src="research1.jpg" alt="Research Image">
+                <img src="r1.jpg" alt="Research Image">
                 <div class="research-description">
-                    <h3>Wearable Soft Robot for Proprioception</h3>
+                    <h3>An Enhanced Sensing Methods for Soft Robot</h3>
                     <p>
-                        Developed wearable soft robots that utilize advanced sensing and control technologies to enhance proprioception and provide accurate feedback for various applications.
+                        This study presents a proprioceptive method for soft robot shape estimation, integrating IMUs and bend sensors with a Kalman filter to reduce drift and enhance accuracy. A piecewise constant curvature model and machine learning address nonlinearities, achieving a 4.54% error relative to robot length, outperforming similar methods.
                     </p>
                 </div>
             </div>
             <div class="research-item">
-                <img src="research2.jpg" alt="Research Image">
+                <img src="r5.jpg" alt="Research Image">
                 <div class="research-description">
-                    <h3>Dynamic Shape Morphing for Soft Robotics</h3>
+                    <h3>Proprioception Based on Shape-Morphing Structural Strain Sensors</h3>
                     <p>
-                        Designed soft robots capable of dynamic shape morphing, optimizing locomotion and adaptability using embedded sensors and actuators.
+                        A novel shape-morphing strain sensing structure improves proprioception versatility and wearability with high reliability and accuracy. Key takeaways include using quasi-static principles and optimization for 3D configuration estimation, SVD-based modeling for precise deformation mapping, and a reusable, modular design for diverse robotic applications.
                     </p>
                 </div>
             </div>
+            <div class="research-item">
+                <img src="r2.jpg" alt="Research Image">
+                <div class="research-description">
+                    <h3>Shape Morphing Control for Soft Gripper</h3>
+                    <p>
+                        This study presents an embedded shape-morphing system for grippers, using pneumatic kirigami-inspired actuators to adapt to object size and weight. Simulated with a discrete elastic rod model, the system integrates stress and bend sensors for shape estimation and pneumatic control for stable object handling.
+                    </p>
+                </div>
+            </div>
+            <div class="research-item">
+                <img src="r3.jpg" alt="Research Image">
+                <div class="research-description">
+                    <h3>Control of a Biologically-Inspired Humanoid Robot Neck Utilizing a Stewart Platform</h3>
+                    <p>
+                        This study introduces a 6-DOF parallel Stewart platform for a humanoid robot neck, enabling human-like yaw, pitch, and roll motions. Using linear actuators and an IMU-based control system, precise and user-directed movements were achieved. Identified issues, including joint friction and circuit instability, were addressed with proposed solutions. This work advances lifelike humanoid neck mechanisms for enhanced interaction and agility. 
+                    </p>
+                </div>
+            </div>
+            <div class="research-item">
+                <img src="r4.jpg" alt="Research Image">
+                <div class="research-description">
+                    <h3>Implementation and Development of a Tractor’s Path Tracking Algorithm Based on Dynamic Target Control</h3>
+                    <p>
+                        This study presents a Dynamic Path Tracking Algorithm for autonomous tractors that eliminates pre-generated reference paths. Unlike the Pure Pursuit Algorithm, it dynamically adjusts target distances based on head and distance errors, accounting for steering and speed delays. Experiments with R-type and C-type turns demonstrate comparable accuracy to the Pure Pursuit Algorithm, providing an efficient and flexible solution.
+                    </p>
+                </div>
+            </div>
+
+
             <!-- Add more research items as needed -->
         </section>
     </main>
 
+
     <footer>
-        <p>Contact: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/your-username" target="_blank">https://github.com/your-username</a></p>
+        <div class="logos">
+            <img src="SamLogo.png" alt="Lab Logo">
+            <img src="mrobot.jpg" alt="Michigan Robotics Logo">
+        </div>
     </footer>
 </body>
 </html>
