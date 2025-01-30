@@ -4,12 +4,15 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: lightgray;
-    color: #333;
+    background-color: rgba(55,65,81,255);
+    color: black;
 }
+
 main h2 {
     text-align: center;
+    color: white;
     margin-bottom: 1em;
+    font-size: x-large;
 }
 a {
     color: #00274C;
@@ -29,7 +32,7 @@ header {
 header .profile img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-bottom: 1em;
 }
 header .cv-link {
@@ -60,16 +63,15 @@ main .research {
     margin: 0 auto;
 }
 
-
 main .bio {
     background: white;
     border-radius: 10px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     padding: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
 }
 main .bio img {
     width: 100%;
@@ -89,9 +91,6 @@ main .bio-description h2 {
 main .bio-description p {
     margin: 0.5em 0 0;
 }
-
-
-
 
 main .research {
     max-width: 900px;
@@ -161,4 +160,22 @@ footer .logos img {
     text-align: center;  
     color:white;   
 }
+.centered-italic {
+    text-align: center;
+    color: rgba(55,65,81,255);
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 5px;
+    display: block;
+    font-style: italic;
+    margin: 10 auto; 
+}
 
+.section-divider {
+    width: 30%; 
+    margin: -1em auto; 
+    border: none;  
+    height: 10px; 
+    background-color: #75988c; 
+    border-radius: 2px; 
+}
