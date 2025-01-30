@@ -160,6 +160,12 @@ footer .logos img {
     text-align: center;  
     color:white;   
 }
+
+.position {
+    text-align: center;  
+    color:#41b2a9;   
+}
+
 .centered-italic {
     text-align: center;
     color: rgba(55,65,81,255);
